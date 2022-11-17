@@ -1,5 +1,7 @@
 name: Scribe GitHub App Workflow Demo
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 env:
   SCRIBE_URL: "https://api.dev.hub.scribesecurity.com/scribe-proxy"
